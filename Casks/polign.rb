@@ -5,22 +5,22 @@ cask "polign" do
   on_macos do
     on_intel do
       sha256 "7500fe46993293cd83e83348342df47985db9e61fc096db4f7114bec53adf6d3"
-      url "https://github.com/polign/polign_db/releases/download/v#{version}/polign_db_darwin_amd64.tar.gz"
+      url "https://github.com/Polign/polign/releases/download/v#{version}/polign_db_darwin_amd64.tar.gz"
     end
     on_arm do
       sha256 "6feac6c9c56ee51cd540c767b05f320b7f7b19aaa9f159cd6338a38e0d5c4795"
-      url "https://github.com/polign/polign_db/releases/download/v#{version}/polign_db_darwin_arm64.tar.gz"
+      url "https://github.com/Polign/polign/releases/download/v#{version}/polign_db_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
       sha256 "32a5030f40c9ccb739103ab407fd643a6028e2a74f32520ef6c04c2148773973"
-      url "https://github.com/polign/polign_db/releases/download/v#{version}/polign_db_linux_amd64.tar.gz"
+      url "https://github.com/Polign/polign/releases/download/v#{version}/polign_db_linux_amd64.tar.gz"
     end
     on_arm do
       sha256 "da664a728458eeb2f906be4263a5146a7b7bd824999da488fd1bab8c4d8df82e"
-      url "https://github.com/polign/polign_db/releases/download/v#{version}/polign_db_linux_arm64.tar.gz"
+      url "https://github.com/Polign/polign/releases/download/v#{version}/polign_db_linux_arm64.tar.gz"
     end
   end
 
