@@ -4,21 +4,21 @@ cask "recall" do
 
   on_macos do
     on_arm do
-      sha256 "a1ce770d692e18c07185f23b16e0f0b08b3d3ca6bc60eda5c4b1cd0d6b01eae7"
+      sha256 "31cf8637621e0d950d3003b4cacc0303fca5fc9faec1691e66a1573860e12940"
       url "https://github.com/Polign/recall/releases/download/v#{version}/recall_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "bac0583310eec6bb81b438dea9e95c1e7cd3812bcde3841e8c0e793b41b969fa"
+      sha256 "29a8385b7bcef898823482962cbf310d3fd9943ce47df444ba26dce23afe4eb9"
       url "https://github.com/Polign/recall/releases/download/v#{version}/recall_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "d04d21351a7f3d42dced0e24eafb906a7c2431533e237191f8af00180b33ed9a"
+      sha256 "55fe9556891ef39a93f95c2e227f900e2ee0ec5b3a02044cbff472220d318bec"
       url "https://github.com/Polign/recall/releases/download/v#{version}/recall_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b5646d7af4cbbca0740db8b62221c5fb88a4c02d9464e6e02fd759b79cd14b2d"
+      sha256 "fc9e302e5a7c7f66bdff8f78e3b17c065bf9ed4e246925982fbcb9d7ef96b4df"
       url "https://github.com/Polign/recall/releases/download/v#{version}/recall_linux_amd64.tar.gz"
     end
   end
